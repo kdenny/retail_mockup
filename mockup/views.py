@@ -45,3 +45,7 @@ def view9(request):
 def view10(request):
     context = {'title': 'API Examples Page'}
     return render(request, 'mockup/view10.html', context)
+
+def toc(request):
+    context = {'title': 'API Examples Page'}
+    return render(request, 'mockup/toc.html', context)

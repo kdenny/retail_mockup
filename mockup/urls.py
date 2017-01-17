@@ -16,6 +16,7 @@ urlpatterns = [
     url(r'^view8/$', views.view8, name='view8'),
     url(r'^view9/$', views.view9, name='view9'),
     url(r'^view10/$', views.view10, name='view10'),
+    url(r'^toc/$', views.toc, name='toc'),
     # url(r'^logout/$', views.user_logout, name='logout'),
     # url(r'^api/$', views.api_examples, name='api')
 ]
